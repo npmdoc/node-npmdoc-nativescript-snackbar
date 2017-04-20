@@ -1,4 +1,7 @@
-# api documentation for  [nativescript-snackbar (v1.1.6)](https://github.com/bradmartin/nativescript-snackbar)  [![npm package](https://img.shields.io/npm/v/npmdoc-nativescript-snackbar.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nativescript-snackbar) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nativescript-snackbar.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nativescript-snackbar)
+# npmdoc-nativescript-snackbar
+
+#### api documentation for  [nativescript-snackbar (v1.1.6)](https://github.com/bradmartin/nativescript-snackbar)  [![npm package](https://img.shields.io/npm/v/npmdoc-nativescript-snackbar.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nativescript-snackbar) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nativescript-snackbar.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nativescript-snackbar)
+
 #### A NativeScript plugin providing the Material Design SnackBar.
 
 [![NPM](https://nodei.co/npm/nativescript-snackbar.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/nativescript-snackbar)
@@ -18,13 +21,36 @@
 ```json
 
 {
-    "author": {
-        "name": "Brad Martin",
-        "url": "https://github.com/bradmartin"
+    "name": "nativescript-snackbar",
+    "version": "1.1.6",
+    "description": "A NativeScript plugin providing the Material Design SnackBar.",
+    "main": "snackbar",
+    "typings": "index.d.ts",
+    "nativescript": {
+        "platforms": {
+            "ios": "1.5.0",
+            "android": "1.5.0"
+        }
     },
-    "bugs": {
-        "url": "https://github.com/bradmartin/nativescript-snackbar/issues"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bradmartin/nativescript-snackbar"
     },
+    "keywords": [
+        "NativeScript",
+        "JavaScript",
+        "TypeScript",
+        "snackbar",
+        "android",
+        "ios",
+        "material design",
+        "bradmartin",
+        "Thorum",
+        "sitefintysteve",
+        "NathanaelA",
+        "MarcBuils"
+    ],
+    "author": "Brad Martin <bradwaynemartin@gmail.com> (https://github.com/bradmartin)",
     "contributors": [
         {
             "name": "Steve McNiven-Scott",
@@ -43,61 +69,9 @@
             "url": "https://github.com/roblav96"
         }
     ],
-    "dependencies": {},
-    "description": "A NativeScript plugin providing the Material Design SnackBar.",
-    "devDependencies": {},
-    "directories": {},
-    "dist": {
-        "shasum": "5725266ae53746ca85e32de13ec603d6e4fe7d6f",
-        "tarball": "https://registry.npmjs.org/nativescript-snackbar/-/nativescript-snackbar-1.1.6.tgz"
-    },
-    "gitHead": "9bad03a3cce5135232e29a3e33a721f08f83a37a",
-    "homepage": "https://github.com/bradmartin/nativescript-snackbar",
-    "keywords": [
-        "NativeScript",
-        "JavaScript",
-        "TypeScript",
-        "snackbar",
-        "android",
-        "ios",
-        "material design",
-        "bradmartin",
-        "Thorum",
-        "sitefintysteve",
-        "NathanaelA",
-        "MarcBuils"
-    ],
     "license": "Apache-2.0",
-    "main": "snackbar",
-    "maintainers": [
-        {
-            "name": "bradmartin"
-        },
-        {
-            "name": "marcbuils"
-        },
-        {
-            "name": "nathanaela"
-        },
-        {
-            "name": "sitefinitysteve"
-        }
-    ],
-    "name": "nativescript-snackbar",
-    "nativescript": {
-        "platforms": {
-            "ios": "1.5.0",
-            "android": "1.5.0"
-        }
-    },
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/bradmartin/nativescript-snackbar.git"
-    },
-    "scripts": {},
-    "typings": "index.d.ts",
-    "version": "1.1.6"
+    "bugs": "https://github.com/bradmartin/nativescript-snackbar/issues",
+    "homepage": "https://github.com/bradmartin/nativescript-snackbar"
 }
 ```
 
